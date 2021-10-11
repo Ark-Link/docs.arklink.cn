@@ -39,7 +39,7 @@ async function checkoutghpage() {
   console.log('gh-page', '清理上次构建...')
   const files = fs.readdirSync(GH_PAGE_DIR)
   for (let i = 0; i < files.length; i++) {
-    if (files[i] !== '.git') {
+    if (files[i] !== '.git' || files[i] !== 'CNAME') {
       fs.removeSync(path.join(GH_PAGE_DIR, files[i]))
     }
   }
