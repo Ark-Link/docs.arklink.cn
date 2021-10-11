@@ -35,7 +35,14 @@ async function checkoutghpage() {
     ],
     { cwd: GH_PAGE_DIR, stdio: 'inherit' }
   )
-  // 清空git commit
+  // 清空上次的构建
+  console.log('gh-page', '清理上次构建...')
+  const files = fs.readdirSync(GH_PAGE_DIR)
+  for (let i = 0; i < files.length; i++) {
+    if (files[i] !== '.git') {
+      fs.removeSync(path.join(GH_PAGE_DIR, files[i]))
+    }
+  }
 
   console.log('gh-page', '拷贝构建目录...')
   fs.copySync(DOCS_DIST_PATH, GH_PAGE_DIR, { overwrite: true })
