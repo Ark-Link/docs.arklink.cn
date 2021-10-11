@@ -8,7 +8,10 @@ module.exports = {
     search: false,
     lastUpdated: '最后更新于',
     nav: [
-      
+      { text: '首页', link: '/' },
+      { text: '后台管理系统', link: '/admin/' },
+      { text: '外包', link: '/work/' },
+      { text: 'Gtihub', link: 'https://github.com/orgs/Ark-Link/' },
     ],
     sidebar: {
       
