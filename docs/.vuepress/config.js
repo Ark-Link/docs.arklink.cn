@@ -30,7 +30,8 @@ module.exports = {
             '/admin/server/exception',
             '/admin/server/crontab',
             '/admin/server/redis',
-            '/admin/server/utils'
+            '/admin/server/utils',
+            '/admin/server/swagger'
           ]
         },
         '/admin/front',
