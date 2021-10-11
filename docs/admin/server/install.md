@@ -9,7 +9,7 @@ docker network create ark-net
 ## 启动redis容器
 
 ```shell
-docker run --name sredis -d --net ark-net redis:latest
+docker run --name redis -d --net ark-net redis:latest
 ```
 
 ## 启动mysql容器
