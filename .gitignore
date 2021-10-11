@@ -1,0 +1,11 @@
+.DS_Store
+.vscode
+.idea
+.project
+.settings
+*.log
+temp
+node_modules
+package-lock.json
+yarn.lock
+docs/.vuepress/dist

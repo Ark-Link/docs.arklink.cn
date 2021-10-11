@@ -1,0 +1,26 @@
+{
+  "name": "ark-link-docs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ark-Link开源官方文档",
+  "main": "index.js",
+  "scripts": {
+    "clean": "node scripts/clean.js",
+    "gh": "node scripts/gh-page.js",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "keywords": [
+    "arklink"
+  ],
+  "author": "trevor,hackycy",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "execa": "^5.1.1",
+    "fs-extra": "^10.0.0",
+    "prettier": "^2.4.1",
+    "vuepress": "^1.8.2"
+  }
+}
