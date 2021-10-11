@@ -16,7 +16,13 @@ module.exports = {
     sidebar: {
       '/admin/': [
         '/admin/',
-        '/admin/server',
+        {
+          title: '后端手册',
+          collapsable: false,
+          children: [
+            '/admin/server/install'
+          ]
+        },
         '/admin/front',
         '/admin/notice'
       ],
