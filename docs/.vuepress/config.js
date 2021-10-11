@@ -20,11 +20,28 @@ module.exports = {
           title: '后端手册',
           collapsable: false,
           children: [
-            '/admin/server/install'
+            '/admin/server/install',
+            '/admin/server/api',
+            '/admin/server/struct',
+            '/admin/server/controller',
+            '/admin/server/model',
+            '/admin/server/validator',
+            '/admin/server/middleware',
+            '/admin/server/exception',
+            '/admin/server/crontab',
+            '/admin/server/redis',
+            '/admin/server/utils'
           ]
         },
         '/admin/front',
-        '/admin/notice'
+        {
+          title: '其他',
+          collapsable: false,
+          children: [
+            '/admin/notice/git',
+            '/admin/notice/standard'
+          ]
+        }
       ],
     }
   }
