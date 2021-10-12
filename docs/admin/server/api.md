@@ -2,5 +2,5 @@
 
 
 
-swagger api：[https://docs.arklink.cn/swagger](https://docs.arklink.cn/swagger)
+swagger api：[链接](/swagger)
 
