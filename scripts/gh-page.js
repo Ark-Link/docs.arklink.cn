@@ -30,7 +30,7 @@ async function checkoutghpage() {
       'clone',
       '-b',
       GH_PAGE_BRANCH,
-      'git@github.com:Ark-Link/docs.arklink.cn.git',
+      'git@github.com:Ark-Link/docs.arklnk.com.git',
       '.'
     ],
     { cwd: GH_PAGE_DIR, stdio: 'inherit' }
