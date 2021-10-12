@@ -42,7 +42,7 @@ docker run --name ark-admin -v /ark-admin:/ark-admin -p 9501:9501 -p 9502:9502 -
 
 密码：root
 
-新建数据库ark_admin，并导入ark-admin目录下的init.sql
+新建数据库ark_admin，并导入ark-admin/sql目录下的init.sql
 
 ## 修改配置
 
