@@ -34,7 +34,22 @@ module.exports = {
             '/admin/server/swagger'
           ]
         },
-        '/admin/front',
+        {
+          title: '前端手册',
+          collapsable: false,
+          children: [
+            '/admin/front/install',
+            '/admin/front/struct',
+            {
+              title: '组件文档',
+              collapsable: false,
+              children: [
+                '/admin/front/component/table',
+                '/admin/front/component/formdialog'
+              ]
+            }
+          ]
+        },
         {
           title: '其他',
           collapsable: false,
