@@ -30,7 +30,8 @@ module.exports = {
             '/admin/server/crontab',
             '/admin/server/redis',
             '/admin/server/utils',
-            '/admin/server/swagger'
+            '/admin/server/swagger',
+            '/admin/server/command',
           ]
         },
         {

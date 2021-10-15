@@ -19,6 +19,10 @@ Crontab:
 
 ## 编写定时任务
 
+```
+php bin/hyperf.php arkGen:task DemoTask
+```
+
 ```php
 <?php
 
