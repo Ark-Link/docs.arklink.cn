@@ -10,7 +10,6 @@ module.exports = {
     nav: [
       { text: '首页', link: '/' },
       { text: '后台管理系统', link: '/admin/' },
-      { text: '关于方舟', link: '/about/' },
       { text: 'Gtihub', link: 'https://github.com/orgs/Ark-Link/' },
     ],
     sidebar: {
