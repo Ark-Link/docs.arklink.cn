@@ -15,13 +15,13 @@ php bin/hyperf.php arkGen:controller YourController
 ## 生成模型
 
 ```shell
-php bin/hyperf.php arkGen:model YourModel
+php bin/hyperf.php arkGen:model your_table
 ```
 
 > 注：如果想要分模块创建，比如想创建Admin模块下的IndexModel，则可以
 >
 > ```shell
-> php bin/hyperf.php arkGen:model Admin/IndexModel
+> php bin/hyperf.php arkGen:model your_table --path app/Model/Admin
 > ```
 
 ## 生成验证器
