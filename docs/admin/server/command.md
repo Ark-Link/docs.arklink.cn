@@ -6,11 +6,11 @@
 php bin/hyperf.php arkGen:controller YourController
 ```
 
-> 注：如果想要分模块创建，比如想创建Admin模块下的IndexContrpller，则可以
->
-> ```shell
-> php bin/hyperf.php arkGen:controller Admin/IndexController
-> ```
+如果想要分模块创建，比如想创建Admin模块下的YourController，则可以
+
+```
+php bin/hyperf.php arkGen:controller Admin/YourController
+```
 
 ## 生成模型
 
@@ -18,11 +18,11 @@ php bin/hyperf.php arkGen:controller YourController
 php bin/hyperf.php arkGen:model your_table
 ```
 
-> 注：如果想要分模块创建，比如想创建Admin模块下的IndexModel，则可以
->
-> ```shell
-> php bin/hyperf.php arkGen:model your_table --path app/Model/Admin
-> ```
+如果想要分模块创建，比如想创建Admin模块下的YourTable，则可以
+
+```
+php bin/hyperf.php arkGen:model your_table --path app/Model/Admin
+```
 
 ## 生成验证器
 
@@ -30,11 +30,11 @@ php bin/hyperf.php arkGen:model your_table
 php bin/hyperf.php arkGen:validator YourValidator
 ```
 
-> 注：如果想要分模块创建，比如想创建Admin模块下的IndexValidator，则可以
->
-> ```shell
-> php bin/hyperf.php arkGen:validator Admin/IndexValidator
-> ```
+如果想要分模块创建，比如想创建Admin模块下的YourValidator，则可以
+
+```
+php bin/hyperf.php arkGen:validator Admin/YourValidator
+```
 
 ## 生成定时任务
 
@@ -42,11 +42,13 @@ php bin/hyperf.php arkGen:validator YourValidator
 php bin/hyperf.php arkGen:task YourTask
 ```
 
-> 注：如果想要分模块创建，比如想创建Admin模块下的IndexTask，则可以
->
-> ```shell
-> php bin/hyperf.php arkGen:task Admin/IndexTask
-> ```
+如果想要分模块创建，比如想创建Admin模块下的YourTask，则可以
+
+```
+php bin/hyperf.php arkGen:task Admin/YourTask
+```
+
+
 
 
 
