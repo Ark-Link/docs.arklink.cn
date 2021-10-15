@@ -20,6 +20,10 @@ Validator:
 
 ## 编写验证器
 
+```
+php bin/hyperf.php arkGen:validator YourValidator
+```
+
 ```php
 <?php
 

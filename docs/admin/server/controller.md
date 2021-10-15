@@ -23,6 +23,10 @@ Controller:
 
 ## 编写控制器
 
+```
+php bin/hyperf.php arkGen:controller ProjectController
+```
+
 ```php
 <?php
 

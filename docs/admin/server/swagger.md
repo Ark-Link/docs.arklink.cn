@@ -18,3 +18,9 @@ Swagger:
           UserSwagger.php              # 用户相关 
 ```
 
+## 生成API文档
+
+```shell
+php bin/hyperf.php swagger:gen -p app/Swagger
+```
+

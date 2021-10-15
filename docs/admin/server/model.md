@@ -140,7 +140,7 @@ class BaseModel extends Model
 ## 编写模型
 
 ```
-php bin/hyperf.php gen:model your_table
+php bin/hyperf.php arkGen:model your_table
 ```
 
 ```php
@@ -185,5 +185,5 @@ class YourTable extends BaseModel
 
 > 注：
 >
-> 1、gen生成模型后，统一将基类替换为BaseModel
+> 1、生成的模型，统一继承BaseModel
 
