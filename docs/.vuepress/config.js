@@ -54,8 +54,7 @@ module.exports = {
           title: '其他',
           collapsable: false,
           children: [
-            '/admin/notice/git',
-            '/admin/notice/standard'
+            '/admin/notice/git'
           ]
         }
       ],

@@ -2,27 +2,34 @@
 
 ```
 app:
-├─Business            # 业务逻辑（当控制器逻辑过多时可以抽取到该模块下）
-│  ├─Admin            # 后台业务逻辑
-│  └─WebSocket        # websocket业务逻辑
+├─Business
+│  ├─Admin
+│  │  └─Core          # 后台核心业务逻辑
+│  └─Websocket        # Websocket业务逻辑
+├─Command
+│  └─Template         # 命令生成器模板
 ├─Constants           # 枚举类
 ├─Controller          # 控制器
-│  └─Admin            # 后台控制器
-├─Crontab             # 定时任务
-│  └─Repository
-├─Exception           # 异常处理
-│  └─Handler
-├─Listener
-├─Middleware          # 中间件
-├─Model               # 数据模型
-├─Redis               # redis处理类库
-│  ├─Contract
-│  └─Repository
-├─Swagger             # swagger api
 │  └─Admin
-├─Utils               # 工具类
-├─Socket              # socket服务
-└─Validator           # 数据验证器
-    └─Admin
+│      └─Core         # 后台核心控制器
+├─Crontab
+│  ├─Repository       # 定时任务处理类库
+│  └─Task             # 定时任务
+├─Exception
+│  └─Handler          # 异常处理
+├─Listener            # 监听器
+├─Middleware
+├─Model               # 数据模型
+├─Redis
+│  ├─Contract         # redis接口
+│  └─Repository       # redis处理类库
+├─Socket              # Websocket服务
+├─Swagger
+│  └─Admin
+│      └─Core         # 后台swagger api
+├─Utils
+│  └─Core             # 系统工具类
+└─Validator
+    └─Admin           # 后台验证器
 ```
 
