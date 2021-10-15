@@ -10,7 +10,7 @@ module.exports = {
     nav: [
       { text: '首页', link: '/' },
       { text: '后台管理系统', link: '/admin/' },
-      { text: 'Gtihub', link: 'https://github.com/orgs/Ark-Link/' },
+      { text: 'Gtihub', link: 'https://github.com/arklnk' },
     ],
     sidebar: {
       '/admin/': [
