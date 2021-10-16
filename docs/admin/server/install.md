@@ -76,6 +76,18 @@ CAPTCHA_CHARSET=123456789
 NEW_USER_DEFAULT_PASSWORD=123456
 ```
 
+## 初始化超级管理员
+
+```
+php bin/hyperf.php ark:admin arkadmin 123456
+```
+
+> 执行命令后，初始化的超级管理员为
+>
+> 账号：arkadmin
+>
+> 密码：123456
+
 ## 启动服务
 
 进入ark-admin容器执行命令
