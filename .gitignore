@@ -1,11 +1,13 @@
 .DS_Store
-.vscode
 .idea
 .project
 .settings
 *.log
 temp
+.temp
+.cache
 node_modules
 package-lock.json
+pnpm-lock.yaml
 yarn.lock
 docs/.vuepress/dist
