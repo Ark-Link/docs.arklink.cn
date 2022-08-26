@@ -42,6 +42,9 @@ jobs:
       # 运行构建脚本
       - name: Build VuePress site
         run: yarn build
+      
+      - name: Set CNAME
+        run: echo 'docs.arklnk.com' >> docs/.vuepress/dist/CNAME
 
       # 查看 workflow 的文档来获取更多信息
       # @see https://github.com/crazy-max/ghaction-github-pages
