@@ -29,7 +29,22 @@ export default defineUserConfig({
         {
           text: '后端手册(go-zero)',
           collapsible: true,
-          children: ['/admin/zero/start'],
+          children: [
+            '/admin/zero/specification.md',
+            '/admin/zero/start.md',
+            '/admin/zero/business.md',
+            '/admin/zero/database.md',
+            '/admin/zero/config.md',
+            '/admin/zero/errorcode.md',
+            '/admin/zero/response.md',
+            '/admin/zero/middleware.md',
+            '/admin/zero/validate.md',
+            '/admin/zero/template.md',
+            '/admin/zero/genapi.md',
+            '/admin/zero/genmodel.md',
+            '/admin/zero/build-docker.md',
+            '/admin/zero/deploy.md',
+          ],
         },
         {
           text: '前端手册(vue3+vite)',
