@@ -1,5 +1,7 @@
 # 权限验证中间件
 
+位置：app/core/cmd/api/internal/middleware/permmenuauthmiddleware.go
+
 ```go
 package middleware
 

@@ -12,6 +12,8 @@
 }
 ```
 
+位置：common/response/response.go
+
 ```go
 package response
 

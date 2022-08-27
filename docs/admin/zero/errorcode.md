@@ -11,6 +11,8 @@
 }
 ```
 
+位置：common/errorx/baseerror.go
+
 ```go
 package errorx
 
@@ -49,6 +51,8 @@ func (e *CodeError) Data() *CodeErrorResponse {
 ```
 
 ## 自定义错误码
+
+位置：common/errorx/errormsg.go
 
 ```go
 package errorx
@@ -161,6 +165,8 @@ func MapErrMsg(errCode int) string {
 ```
 
 ## 开启自定义错误
+
+位置：app/core/cmd/api/core.go
 
 ```go
 package main
