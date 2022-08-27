@@ -44,6 +44,7 @@ export default defineUserConfig({
             '/admin/zero/genmodel.md',
             '/admin/zero/build-docker.md',
             '/admin/zero/deploy.md',
+            '/admin/zero/thanks.md',
           ],
         },
         {
