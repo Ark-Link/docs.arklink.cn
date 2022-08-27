@@ -2,6 +2,7 @@ import { defineUserConfig } from 'vuepress'
 import { defaultTheme } from '@vuepress/theme-default'
 
 export default defineUserConfig({
+  port: 8181,
   lang: 'zh-CN',
   title: '方舟互联',
   description: '拥抱开源、全面覆盖、快速开发',
@@ -13,6 +14,7 @@ export default defineUserConfig({
     docsRepo: 'https://github.com/arklnk/docs.arklnk.com',
     docsBranch: 'main',
 
+    // 首页顶部盗汗
     navbar: [
       // NavbarGroup
       {
