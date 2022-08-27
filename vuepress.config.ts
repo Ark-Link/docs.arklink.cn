@@ -7,6 +7,8 @@ export default defineUserConfig({
   title: '方舟互联',
   description: '拥抱开源、全面覆盖、快速开发',
 
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+
   // https://v2.vuepress.vuejs.org/zh/reference/default-theme/config.html
   theme: defaultTheme({
     logo: '/images/logo.png',
