@@ -35,6 +35,7 @@ export default defineUserConfig({
             '/admin/zero/start.md',
             '/admin/zero/specification.md',
             '/admin/zero/business.md',
+			'/admin/zero/project.md',
             '/admin/zero/database.md',
             '/admin/zero/config.md',
             '/admin/zero/errorcode.md',
