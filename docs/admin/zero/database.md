@@ -1,6 +1,6 @@
 # 数据表关系
 
-![database](https://raw.githubusercontent.com/arklnk/docs.arklnk.com/main/docs/admin/zero/images/database/database.png)
+![database](/images/zero/database.png)
 
 <a name="返回顶部"></a>
 

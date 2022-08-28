@@ -32,8 +32,8 @@ export default defineUserConfig({
           text: '后端手册(go-zero)',
           collapsible: true,
           children: [
-            '/admin/zero/specification.md',
             '/admin/zero/start.md',
+            '/admin/zero/specification.md',
             '/admin/zero/business.md',
             '/admin/zero/database.md',
             '/admin/zero/config.md',

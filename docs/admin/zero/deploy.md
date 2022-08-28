@@ -13,7 +13,7 @@ go-zero官方设计理念
 - 对业务开发友好，封装复杂度
 - 约束做一件事只有一种方式
 
-![architechture](https://raw.githubusercontent.com/arklnk/docs.arklnk.com/e495da495432628ea86eecfb68c5d24604d755d9/docs/admin/zero/images/deploy/architechture.svg)
+![architechture](/images/zero/architechture.svg)
 
 ## 根据需求部署
 
@@ -21,7 +21,7 @@ go-zero官方设计理念
 
 ark-admin核心core模块没用到rpc，只用了api和model。
 
-![architechture](https://raw.githubusercontent.com/arklnk/docs.arklnk.com/main/docs/admin/zero/images/deploy/deploy.png)
+![architechture](/images/zero/deploy.png)
 
 ```sh
 docker-compose up -d

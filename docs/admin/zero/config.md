@@ -66,4 +66,4 @@ const (
 
 ## 动态配置
 
-![动态配置](https://raw.githubusercontent.com/arklnk/docs.arklnk.com/main/docs/admin/zero/images/config/dictionary.png)
+![动态配置](/images/zero/dictionary.png)
