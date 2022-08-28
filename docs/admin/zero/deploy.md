@@ -24,6 +24,14 @@ ark-admin核心core模块没用到rpc，只用了api和model。
 ![architechture](/images/zero/deploy.png)
 
 ```sh
+git clone https://github.com/arklnk/ark-admin-zero.git
+```
+
+```
+cd ark-admin-zero
+```
+
+```sh
 docker-compose up -d
 ```
 
