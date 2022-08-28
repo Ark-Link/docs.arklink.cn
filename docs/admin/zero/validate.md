@@ -8,7 +8,7 @@
 
 ### 使用校验
 
-已更新个人资料为例，生成的handler如下
+以更新个人资料为例，生成的handler如下
 
 ```go
 package user
