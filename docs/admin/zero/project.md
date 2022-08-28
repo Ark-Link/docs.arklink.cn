@@ -30,10 +30,10 @@ ark-admin
 │      │          └─types
 │      └─model                          model
 ├─common
-│  ├─config                             静态配置
 │  ├─errorx                             自定义错误
 │  ├─response                           自定义响应
 │  └─utils                              工具集
+├─config                                静态配置
 ├─data                                  运行数据
 ├─deploy                                部署时所依赖的配置文件
 ├─dev
