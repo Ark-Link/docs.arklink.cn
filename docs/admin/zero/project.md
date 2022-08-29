@@ -2,7 +2,6 @@
 
 ```
 ark-admin
-|
 ├─app
 │  └─core
 │      ├─cmd
@@ -33,12 +32,11 @@ ark-admin
 │  ├─errorx                             自定义错误
 │  ├─response                           自定义响应
 │  └─utils                              工具集
-├─config                                静态配置
+├─config                                默认配置
 ├─data                                  运行数据
 ├─deploy                                部署时所依赖的配置文件
 ├─dev
 │  ├─goctl                              自定义goctl模板
-│  ├─images
 │  ├─script
 │  └─sql                                
 └─logs                                  运行日志
