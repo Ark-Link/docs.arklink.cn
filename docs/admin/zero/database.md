@@ -95,21 +95,21 @@
 
 * sys_perm_menu表(权限&菜单)[↑](#返回顶部)
 
-|   字段名称    |   字段类型   |       字段含义       |
-| :-----------: | :----------: | :------------------: |
-|      id       |   int(11)    |         编号         |
-|   parent_id   |   int(11)    |        父级id        |
-|     name      | varchar(50)  |         名称         |
-|    router     | varchar(200) |         路由         |
-|     perms     | varchar(200) |         权限         |
-|     type      |  tinyint(1)  | 0=目录 1=菜单 2=权限 |
-|     icon      | varchar(50)  |         图标         |
-|   order_num   |   int(11)    |        排序值        |
-|   view_path   | varchar(200) |       页面路径       |
-|    is_show    |  tinyint(1)  |    0=隐藏 1=显示     |
-| active_router | varchar(200) |    当前激活的菜单    |
-|  create_time  |  timestamp   |       创建时间       |
-|  update_time  |  timestamp   |       更新时间       |
+|   字段名称    |   字段类型    |       字段含义       |
+| :-----------: | :-----------: | :------------------: |
+|      id       |    int(11)    |         编号         |
+|   parent_id   |    int(11)    |        父级id        |
+|     name      |  varchar(50)  |         名称         |
+|    router     | varchar(1024) |         路由         |
+|     perms     | varchar(1024) |         权限         |
+|     type      |  tinyint(1)   | 0=目录 1=菜单 2=权限 |
+|     icon      | varchar(200)  |         图标         |
+|   order_num   |    int(11)    |        排序值        |
+|   view_path   | varchar(1024) |       页面路径       |
+|    is_show    |  tinyint(1)   |    0=隐藏 1=显示     |
+| active_router | varchar(1024) |    当前激活的菜单    |
+|  create_time  |   timestamp   |       创建时间       |
+|  update_time  |   timestamp   |       更新时间       |
 
 <a name="sys_profession_pointer"></a>
 
@@ -240,15 +240,15 @@ CREATE TABLE `sys_perm_menu`
 (
     `id`            int(11) UNSIGNED NOT NULL COMMENT '编号',
     `parent_id`     int(11) UNSIGNED NOT NULL DEFAULT '0' COMMENT '父级id',
-    `name`          varchar(50)  NOT NULL COMMENT '名称',
-    `router`        varchar(200) NOT NULL DEFAULT '' COMMENT '路由',
-    `perms`         varchar(200) NOT NULL DEFAULT '' COMMENT '权限',
+    `name`          varchar(50)   NOT NULL COMMENT '名称',
+    `router`        varchar(1024)  NOT NULL DEFAULT '' COMMENT '路由',
+    `perms`         varchar(1024) NOT NULL DEFAULT '' COMMENT '权限',
     `type`          tinyint(1) UNSIGNED NOT NULL DEFAULT '0' COMMENT '0=目录 1=菜单 2=权限',
-    `icon`          varchar(50)  NOT NULL DEFAULT '' COMMENT '图标',
+    `icon`          varchar(200)  NOT NULL DEFAULT '' COMMENT '图标',
     `order_num`     int(11) UNSIGNED DEFAULT '0' COMMENT '排序值',
-    `view_path`     varchar(200) NOT NULL DEFAULT '' COMMENT '页面路径',
+    `view_path`     varchar(1024) NOT NULL DEFAULT '' COMMENT '页面路径',
     `is_show`       tinyint(1) UNSIGNED DEFAULT '1' COMMENT '0=隐藏 1=显示',
-    `active_router` varchar(200) NOT NULL DEFAULT '' COMMENT '当前激活的菜单',
+    `active_router` varchar(1024) NOT NULL DEFAULT '' COMMENT '当前激活的菜单',
     `create_time`   timestamp    NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
     `update_time`   timestamp    NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='权限&菜单';
