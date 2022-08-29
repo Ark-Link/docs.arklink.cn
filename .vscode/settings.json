@@ -49,7 +49,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": null
   },
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true

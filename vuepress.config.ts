@@ -16,6 +16,10 @@ export default defineUserConfig({
     docsRepo: 'https://github.com/arklnk/docs.arklnk.com',
     docsBranch: 'main',
 
+    themePlugins: {
+      git: false,
+    },
+
     // 首页顶部盗汗
     navbar: [
       // NavbarGroup
@@ -30,12 +34,12 @@ export default defineUserConfig({
         '/admin/',
         {
           text: '后端手册(go-zero)',
-          collapsible: true,
+          collapsible: false,
           children: [
             '/admin/zero/start.md',
             '/admin/zero/specification.md',
             '/admin/zero/business.md',
-			'/admin/zero/project.md',
+            '/admin/zero/project.md',
             '/admin/zero/database.md',
             '/admin/zero/config.md',
             '/admin/zero/errorcode.md',
@@ -52,8 +56,8 @@ export default defineUserConfig({
         },
         {
           text: '前端手册(vue3+vite)',
-          collapsible: true,
-          children: ['/admin/vue/start'],
+          collapsible: false,
+          children: ['/admin/vue/start', '/admin/vue/project'],
         },
       ],
     },
