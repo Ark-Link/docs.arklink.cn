@@ -1,5 +1,9 @@
 # 快速开始
 
+## go-zero
+
+传送门：[https://go-zero.dev/cn](https://go-zero.dev/cn)
+
 ## API文档
 
 传送门：[https://www.apifox.cn/apidoc/shared-ddbffed9-fa11-49ed-bc46-8d76ab058d60](https://www.apifox.cn/apidoc/shared-ddbffed9-fa11-49ed-bc46-8d76ab058d60)
