@@ -15,4 +15,4 @@ footer: Copyright © 2022-present arklnk. All rights reserved.
 
 我们本着共同的爱好，收集广大程序员的开发诉求，不断开发能帮助程序员与企业快速开发迭代他们的软件产品。
 
-<img src="/images/wechat.jpg" style="width:240px" />
+Email: trevorlan@163.com
