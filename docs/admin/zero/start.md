@@ -49,55 +49,28 @@ git clone https://github.com/arklnk/ark-admin-zero.git
 cd ark-admin-zero
 ```
 
-### 下载依赖
+### 启动
 
 ```sh
-go mod tidy
+docker-compose -f docker-compose-dev.yml up -d
 ```
 
-### 热启动
-
-```sh
-go get github.com/cortesi/modd/cmd/modd
+```
+docker exec -it ark-admin-api /bin/sh
 ```
 
-编辑热启动配置（项目根目录下的modd.conf）
-
-window环境下
-
-```conf
-#core
-app/core/**/*.* {
-    prep: go build -o data/service/core-api.exe -v app/core/cmd/api/core.go
-    daemon: data/service/core-api.exe -f app/core/cmd/api/etc/core-api.yaml
-}
 ```
-
-mac、linux环境下
-
-```
-#core
-app/core/**/*.* {
-    prep: go build -o data/service/core-api -v app/core/cmd/api/core.go
-    daemon: data/service/core-api -f app/core/cmd/api/etc/core-api.yaml
-}
-```
-
-> 注：modd开源地址https://github.com/cortesi/modd
-
-运行（开发环境需要用到 redis 和 mysql，所以请先执行 docker-compose up -d 来启动容器）
-
-```
-modd
+go mod tidy && modd
 ```
 
 如输出以下信息则启动成功
 
 ```
-15:17:03: prep: go build -o data/service/core-api.exe -v app/core/cmd/api/core.go
->> done (2.2430897s)
-15:17:06: daemon: data/service/core-api.exe -f app/core/cmd/api/etc/core-api.yaml
+03:24:52: prep: go build -o data/service/core-api -v app/core/cmd/api/core.go
+>> done (2.8228673s)
+03:24:54: daemon: data/service/core-api -f app/core/cmd/api/etc/core-api.yaml
 >> starting...
-Starting server at 0.0.0.0:7001...
+Starting server at 0.0.0.0:8001...
 ```
 
+> 注：在modd.conf已配置热启动路径，当core模块的代码有改动时，modd会自动重启，方便开发调试。
