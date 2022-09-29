@@ -50,7 +50,7 @@ const (
 	SysOnlineUserCachePrefix   = "cache:arkAdmin:online:"        // 在线用户
 	SysLoginCaptchaCachePrefix = "cache:arkAdmin:captcha:"       // 登录验证码
 	SysUserIdCachePrefix       = "cache:arkAdmin:sysUser:id:"    // 登录用户
-	SysDateFormat              = "2006.01.02 15:04:05"           // 格式化日期
+	SysDateFormat              = "2006-01-02 15:04:05"           // 格式化日期
 	SysNewUserDefaultPassword  = "123456"                        // 新用户默认密码
 	SysProtectPermMenuMaxId    = 44                              // 系统核心权限
 	SysProtectDictionaryMaxId  = 4                               // 系统核心字典

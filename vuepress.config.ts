@@ -42,6 +42,7 @@ export default defineUserConfig({
           collapsible: false,
           children: [
             '/admin/zero/start',
+            '/admin/zero/tool',
             '/admin/zero/specification',
             '/admin/zero/business',
             '/admin/zero/project',
