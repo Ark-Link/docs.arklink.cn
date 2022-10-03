@@ -56,7 +56,7 @@ docker-compose -f docker-compose-dev.yml up -d
 ```
 
 ```
-docker exec -it ark-admin-api /bin/sh
+docker exec -it api /bin/sh
 ```
 
 ```

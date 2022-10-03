@@ -11,7 +11,7 @@ go-zero官方文档：[api文件编写](https://go-zero.dev/cn/docs/advance/api-
 例如（在项目根目录下执行）
 
 ```sh
-goctl api go -api app/core/cmd/api/core.api -dir app/core/cmd/api -home ./dev/goctl
+goctl api go -api app/core/cmd/api/core.api -dir app/core/cmd/api -home ./build/dev/goctl
 ```
 
 ## api指令

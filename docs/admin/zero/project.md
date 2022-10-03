@@ -28,14 +28,14 @@ ark-admin
 │      │          ├─svc
 │      │          └─types
 │      └─model                          model
+├─build
+│  ├─deploy                             部署时所依赖的配置文件
+│  └─dev 
+│     ├─goctl                           自定义goctl模板
+│     └─tools                           自定义命令工具    
 ├─common
 │  ├─errorx                             自定义错误
 │  ├─response                           自定义响应
 │  └─utils                              工具集
-├─config                                默认配置
-├─deploy                                部署时所依赖的配置文件
-└─dev 
-   ├─goctl                              自定义goctl模板
-   └─tools                              自定义命令工具                                
-
+└─config                                默认配置                            
 ```
