@@ -33,9 +33,9 @@ ark-admin
 │  └─dev 
 │     ├─goctl                           自定义goctl模板
 │     └─tools                           自定义命令工具    
-├─common
-│  ├─errorx                             自定义错误
-│  ├─response                           自定义响应
-│  └─utils                              工具集
-└─config                                默认配置                            
+└─common
+   ├─errorx                             自定义错误
+   ├─globalkey                          通用全局静态key
+   ├─response                           自定义响应
+   └─utils                              工具集                          
 ```
