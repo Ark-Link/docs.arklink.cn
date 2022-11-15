@@ -61,6 +61,21 @@ export default defineUserConfig({
           ],
         },
         {
+          text: '后端手册(nestjs)',
+          collapsible: false,
+          children: [
+            '/admin/nest/start',
+            '/admin/nest/business',
+            '/admin/nest/config',
+            '/admin/nest/database',
+            '/admin/nest/errorcode',
+            '/admin/nest/response',
+            '/admin/nest/auth',
+            '/admin/nest/validate',
+            '/admin/nest/thanks',
+          ],
+        },
+        {
           text: '前端手册(vue3+vite)',
           collapsible: false,
           children: [
