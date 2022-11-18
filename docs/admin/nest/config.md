@@ -52,6 +52,10 @@ DB_LOGGING = true
 # swagger
 SWAGGER_ENABLE = true
 SWAGGER_PATH = documentation
+
+# logger
+LOGGER_LEVEL = verbose
+LOGGER_MAX_FILES = 31
 ```
 
 ::: warning 安全注意事项
