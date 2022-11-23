@@ -37,6 +37,7 @@ export default defineUserConfig({
     sidebar: {
       '/admin/': [
         '/admin/',
+        '/admin/cli/',
         {
           text: '后端手册(go-zero)',
           collapsible: false,
