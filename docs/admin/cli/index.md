@@ -2,7 +2,7 @@
 
 ## 初始化项目
 
-推荐直接使用脚手架，只需几条简单指令，即可快速生成项目。
+推荐直接使用脚手架[create-arklnk-app](https://github.com/arklnk/create-arklnk-app)，只需几条简单指令，即可快速生成项目。
 
 ``` sh
 npm init arklnk-app my-app
