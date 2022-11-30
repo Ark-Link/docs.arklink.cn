@@ -73,6 +73,7 @@ export default defineUserConfig({
             '/admin/nest/response',
             '/admin/nest/auth',
             '/admin/nest/validate',
+            '/admin/nest/log',
             '/admin/nest/thanks',
           ],
         },
