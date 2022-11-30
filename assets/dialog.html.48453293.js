@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-0eb259dd","path":"/admin/vue/component/dialog.html","title":"Dialog","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"filePathRelative":"admin/vue/component/dialog.md"}');export{e as data};

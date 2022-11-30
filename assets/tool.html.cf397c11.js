@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-1f45fad3","path":"/admin/zero/tool.html","title":"\u8F85\u52A9\u547D\u4EE4","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"api","slug":"api","children":[]},{"level":2,"title":"model","slug":"model","children":[]}],"filePathRelative":"admin/zero/tool.md"}');export{e as data};

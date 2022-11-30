@@ -1,0 +1,8 @@
+import{_ as s,o as n,c as e,e as a}from"../app.2fb2eae3.mjs";const o={},t=a(`<h1 id="\u7EDF\u4E00\u8FD4\u56DE\u503C" tabindex="-1"><a class="header-anchor" href="#\u7EDF\u4E00\u8FD4\u56DE\u503C" aria-hidden="true">#</a> \u7EDF\u4E00\u8FD4\u56DE\u503C</h1><p>\u8FD4\u56DE\u683C\u5F0F</p><div class="language-json ext-json line-numbers-mode"><pre class="language-json"><code><span class="token punctuation">{</span>
+  <span class="token property">&quot;code&quot;</span><span class="token operator">:</span> <span class="token number">200</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;msg&quot;</span><span class="token operator">:</span> <span class="token string">&quot;success&quot;</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;data&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token comment">// ....</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>\u4F4D\u7F6E: <code>src/interceptors/transform.interceptor.ts</code></p><blockquote><p><code>data</code>\u503C\u4F1A\u81EA\u52A8\u53D6<code>controller</code>\u7684\u8FD4\u56DE\u503C</p></blockquote>`,5),c=[t];function p(r,i){return n(),e("div",null,c)}const d=s(o,[["render",p],["__file","response.html.vue"]]);export{d as default};

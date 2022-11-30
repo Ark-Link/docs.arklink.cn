@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-03f07ae1","path":"/admin/vue/component/form.html","title":"Form","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"filePathRelative":"admin/vue/component/form.md"}');export{e as data};

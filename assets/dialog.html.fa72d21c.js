@@ -1,0 +1,1 @@
+import{_ as a,o,c as t,a as e,b as c}from"../app.2fb2eae3.mjs";const s={},d=e("h1",{id:"dialog",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#dialog","aria-hidden":"true"},"#"),c(" Dialog")],-1),n=e("p",null,"\u5F85\u5B8C\u5584...",-1),r=[d,n];function _(i,l){return o(),t("div",null,r)}const f=a(s,[["render",_],["__file","dialog.html.vue"]]);export{f as default};

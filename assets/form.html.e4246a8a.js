@@ -1,0 +1,1 @@
+import{_ as o,o as t,c as r,a as e,b as a}from"../app.2fb2eae3.mjs";const c={},s=e("h1",{id:"form",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#form","aria-hidden":"true"},"#"),a(" Form")],-1),n=e("p",null,"\u5F85\u5B8C\u5584...",-1),_=[s,n];function d(f,i){return t(),r("div",null,_)}const h=o(c,[["render",d],["__file","form.html.vue"]]);export{h as default};

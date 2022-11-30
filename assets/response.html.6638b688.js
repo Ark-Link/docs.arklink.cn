@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-0e035f0c","path":"/admin/nest/response.html","title":"\u7EDF\u4E00\u8FD4\u56DE\u503C","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"filePathRelative":"admin/nest/response.md"}');export{e as data};

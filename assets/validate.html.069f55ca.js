@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-638708c5","path":"/admin/nest/validate.html","title":"\u53C2\u6570\u9A8C\u8BC1\u5668","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"validator","slug":"validator","children":[]}],"filePathRelative":"admin/nest/validate.md"}');export{t as data};

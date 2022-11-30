@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-620fd2ff","path":"/admin/vue/component/table.html","title":"Table","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"filePathRelative":"admin/vue/component/table.md"}');export{e as data};
